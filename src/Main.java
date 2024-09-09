@@ -14,10 +14,23 @@ public class Main {
 
         LinkedList myLinkedList = new LinkedList(3);
         myLinkedList.append(2);
+        myLinkedList.append(23);
+        myLinkedList.append(7);
+
+        myLinkedList.set(1,4);
+
+        myLinkedList.remove(2);
+
+        myLinkedList.reverse();
+
+        myLinkedList.insert(1,7);
         myLinkedList.prepend(1);
-        myLinkedList.printList();
+
 
         System.out.println(myLinkedList.removeLast().value);
+        System.out.println(myLinkedList.removeFirst());
+        System.out.println(myLinkedList.get(2) + "\n");
+        myLinkedList.printList();
 
     }
 }
