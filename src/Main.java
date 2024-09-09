@@ -23,6 +23,8 @@ public class Main {
 
         myLinkedList.reverse();
 
+
+
         myLinkedList.insert(1,7);
         myLinkedList.prepend(1);
 
