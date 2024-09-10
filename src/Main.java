@@ -34,6 +34,32 @@ public class Main {
         System.out.println(myLinkedList.get(2) + "\n");
         myLinkedList.printList();
 
+        //DLL
+
+        DoublyLinkedList myDLL = new DoublyLinkedList(7);
+
+        myDLL.getHead();
+        myDLL.getTail();
+        myDLL.getLength();
+
+        myDLL.printList();
+
+        myDLL.append(3);
+        myDLL.append(6);
+        myDLL.append(9);
+
+        myDLL.prepend(1);
+
+        myDLL.set(1,79);
+
+        myDLL.insert(1,2);
+
+        System.out.println(myDLL.removeFirst().value);
+
+        System.out.println(myDLL.get(1).value);
+
+        System.out.println(myDLL.removeLast().value);
+
     }
 }
 
