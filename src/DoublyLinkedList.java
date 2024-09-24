@@ -142,6 +142,7 @@ public class DoublyLinkedList {
 
         length++;
         return true;
+
     }
 
     public Node remove(int index){
