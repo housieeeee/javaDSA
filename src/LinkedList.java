@@ -143,6 +143,7 @@ public class LinkedList {
     }
 
 
+
     public void reverse(){
         Node temp = head;
         head = tail;
